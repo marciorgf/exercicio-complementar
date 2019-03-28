@@ -1,0 +1,25 @@
+body{
+    /* background-color: pink; */
+    font-family: sans-serif; 
+    background-image: url(../imagens/chalkboard.jpg);
+    background-attachment: fixed;
+}
+
+header{
+    color: #303f9f;
+    text-decoration:underline;    
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    color: rgba(149, 193, 190, 0.78);
+}
+
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 9px;
+    color: rgba(149, 193, 190, 0.78);
+}
