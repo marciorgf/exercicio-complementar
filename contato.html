@@ -8,16 +8,46 @@
 </head>
 <body>
     <a href="file:///C:/Users/marci/Desktop/exercicio-complementar/index.html">Home</a>
-    <h1>Formulário de Contato</h1>  
+    <strong>Formulário de Contato</strong>  
     
     <form action="#">
-        <label for="Nome">Nome e Sobrenome</label>
-        <input type="text">
+        <label for="name">Nome e Sobrenome</label>
+        <input id="name" type="name" name="name" required="">
         <label for="email">E-mail</label>
-        <input type="email">
-        <label for="combobox">Assunto da mensagem</label>
-        <input type="text">
-        <label for=""></label>
+        <input id="email" type="email" name="email" required="">
+        <label for="message">Assunto da mensagem</label>
+        <select id=message>
+            <option>Agendamento de horários</option>
+            <option>Preenchimento do formulário</option>
+            <option>Requisitos para candidatura</option>
+            <option>Error ao enviar</option>
+        </select>
+
+        <p>Genero</p>
+        <label for="genero">Masculino</label>
+        <input id="genero" type="radio" name="genero" value="Masculino">
+        <label for="genero">Feminino</label>
+        <input id="genero" type="radio" name="genero" value="Feminino">
+        <label for="genero">Prefiro não responder</label>
+        <input id="genero" type="radio" name="genero" value="Prefiro não responder">
+
+        <p>Passatempo</p>    
+        <label for="passa-tempos">Futebol</label>
+        <input id="passa-tempos" type="checkbox" name="">
+        <label for="passa-tempos">Musculação</label>
+        <input id="passa-tempos" type="checkbox" name="">
+        <label for="passa-tempos">Cinema</label>
+        <input id="passa-tempos" type="checkbox" name="">
+        <label for="passa-tempos">Parques</label>
+        <input id="passa-tempos" type="checkbox" name="">
+        <label for="passa-tempos">Internet</label>
+        <input id="passa-tempos" type="checkbox" name="">
+
+        <label for="message">Comentários</label>
+        <textarea name="message" id="message" cols="30" rows="4" required></textarea>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Excluir</button>
 
     </form>
 </body>
