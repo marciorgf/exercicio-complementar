@@ -8,7 +8,8 @@ body{
 header{
     color: black;
     text-decoration:underline;
-    text-align: center;    
+    text-align: center;
+    padding: 50px;  
 }
 
 strong{
@@ -28,4 +29,16 @@ em{
 
 mark{
     color: pink;
+}
+
+textarea:hover{
+    background-color: rgb(223, 236, 232);
+    resize: vertical;
+}
+
+#name:hover{
+    background-color: rgb(223, 236, 232);
+}
+#email:hover{
+    background-color: rgb(223, 236, 232);
 }
