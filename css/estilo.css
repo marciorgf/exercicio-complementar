@@ -42,3 +42,7 @@ textarea:hover{
 #email:hover{
     background-color: rgb(223, 236, 232);
 }
+
+.hobbies:hover{
+    border-radius: 20px;
+}
